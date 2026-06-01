@@ -1,0 +1,217 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 398px;
+    padding: 0 15px;
+  }
+  .doing-section {
+    display: none;
+  }
+  .team-section .container {
+    padding-left: 66px;
+    padding-right: 66px;
+  }
+  .team-section .card-img {
+    max-width: 264px;
+  }
+  .footer-subc-box {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 738px;
+  }
+  .menu-open-btn {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+  }
+  .page-address {
+    display: flex;
+  }
+  .page-nav {
+    margin-right: auto;
+  }
+  .hero {
+    background-color: var(--herobackground);
+    padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tab-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    background-position: center;
+    margin: auto;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-tab-img@2x.jpg);
+    }
+  }
+
+  .hero-header {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 36px;
+  }
+  .advantages-section .card-set {
+    gap: 72px 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .advantages-section .card {
+    max-width: 500px;
+  }
+  .advantages-section .card {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .doing-section {
+    display: none;
+  }
+  .team-section .card-set {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .team-section .card {
+    width: calc((100% - 24px) / 2);
+    gap: 64px 24px;
+  }
+
+  .customer-section .card {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+  .flex-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding-left: 108px;
+    gap: 72px 24px;
+    justify-content: left;
+  }
+  .footer-form {
+    align-items: left;
+  }
+  .footer-form {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .footer-input {
+    width: 264px;
+  }
+  .footer-subc-title {
+    text-align: left;
+  }
+  .footer-subc-box {
+    width: 453px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1128px;
+  }
+  .address-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .hero {
+    background-color: var(--herobackground);
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    background-position: center;
+    margin: auto;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-img@2x.jpg);
+    }
+  }
+
+  .advantages-section .card-set {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .advantages-section .card_subtitle {
+    font-weight: 400;
+  }
+  .advantages-section .card {
+    flex-basis: calc((100% - 24px * 3) / 4);
+  }
+  .advantages_icon-box {
+    display: flex;
+  }
+  .doing-section {
+    display: flex;
+  }
+  .doing-section .card-set {
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .doing-section .card {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+  .team-section .card {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+  .team-section .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .customer-section .card-set {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .customer-section .card {
+    width: calc((100% - 24px) / 2);
+    gap: 24px;
+  }
+  .customer-section .card {
+    width: calc((100% - 5 * 24px) / 6);
+  }
+  .footer .container {
+    padding: 0px;
+  }
+
+  .flex-box {
+    gap: 0px;
+  }
+  .footer-box {
+    margin-right: 120px;
+    align-items: baseline;
+    display: flex;
+  }
+  .footer-soc-box {
+    margin-right: 80px;
+    align-items: baseline;
+    display: flex;
+  }
+  
+}

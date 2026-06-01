@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB Hot Beans</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/modal2.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="page-nav">
+          <a href="./index.html" class="link logo"
+            >Web<span class="logo_span">Hot Beans</span></a
+          >
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav_link link current">Home </a>
+            </li>
+            <li class="nav-item">
+              <a href="html/aboutus.html" class="nav_link link">About us</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="page-address">
+          <ul class="address-list list">
+            <li class="address_item">
+              <a href="mailto:info@devstudio.com" class="address_link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address_item">
+              <a href="tel:+110001111111" class="address_link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg width="32" height="22" class="icon-menu-open">
+            <use href="./images/icons.svg#icon-open-mob-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <button data-menu-close class="modal-mob-bth" type="button">
+          <svg class="icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mob-menu-list list">
+          <li class="mob-menu-item">
+            <a href="./index.html" class="current mob-menu_link link">Studio</a>
+          </li>
+          <li class="mob-menu-item">
+            <a href="./index.html" class="mob-menu_link link">About us</a>
+          </li>
+          <li class="mob-menu-item">
+            <a href="./index.html" class="mob-menu_link link"
+              >Our Trainee Developers</a
+            >
+          </li>
+          <li class="mob-menu-item">
+            <a href="./index.html" class="mob-menu_link link">Vacancies</a>
+          </li>
+        </ul>
+        <ul class="footer_soc-list mob-menu-soc-list">
+          <li class="footer_soc-item">
+            <a href="" class="footer_soc-link">
+              <svg width="24" height="24" class="icon">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer_soc-item">
+            <a href="" class="footer_soc-link">
+              <svg width="24" height="24" class="icon">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer_soc-item">
+            <a href="" class="footer_soc-link">
+              <svg width="24" height="24" class="icon">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer_soc-item">
+            <a href="" class="footer_soc-link">
+              <svg width="24" height="24" class="icon">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <ul class="address-mob-list list">
+          <li class="mob-address_item">
+            <a href="mailto:info@devstudio.com" class="mob-address_link link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="address_item">
+            <a href="tel:+110001111111" class="mob-address_link link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Section Hero -->
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-header">Welcome! We are recruiting new developers</h1>
+          <button type="button" data-modal-open="modal1" class="hero-button">
+            Apply now
+          </button>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-header">About Hot Beans</h2>
+          <p class="card_subtitle aboutus-text">
+            Hot Beans Web is a growing web development company that specialises
+            in creating modern, responsive, and user-friendly websites for
+            businesses of all sizes. Our team is passionate about technology and
+            committed to delivering high-quality digital solutions that help our
+            clients succeed online. We provide a supportive and innovative
+            working environment where employees can develop their skills and
+            gain valuable industry experience.
+          </p>
+        </div>
+      </section>
+
+      
+      <!-- Third Section -->
+      <section class="section section-benefit">
+        <div class="container">
+          <h2 class="section-header card_subtitle">
+            Benefits of working with us
+          </h2>
+          <ul>
+            <li class="benefit-item card_subtitle">
+              Career Development – Access to training opportunities and
+              professional development programs.
+            </li>
+            <li class="benefit-item card_subtitle">
+              Supportive Team Environment – Work alongside experienced
+              developers and industry professionals.
+            </li>
+            <li class="benefit-item card_subtitle">
+              Real-World Experience – Contribute to live client projects and
+              build your portfolio.
+            </li>
+            <li class="benefit-item card_subtitle">
+              Modern Technologies – Gain experience using the latest web
+              development tools and frameworks.
+            </li>
+            <li class="benefit-item card_subtitle">
+              Flexible Working Options – Opportunities for hybrid and flexible
+              working arrangements.
+            </li>
+            <li class="benefit-item card_subtitle">
+              Competitive Salary – Fair pay with opportunities for progression
+              and promotion.
+            </li>
+            <li class="benefit-item card_subtitle">
+              Collaborative Culture – Share ideas and learn from a diverse and
+              talented team.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+     
+      <section class="team-section vacancies-section">
+        <div class="container">
+          <h2 class="section-header">Latest vacancies</h2>
+          <ul class="card-set">
+            <li class="card">
+              <div class="card-text">
+                <p class="card_subtitle">Frontend Developer</p>
+                <p>
+                  Join our development team and help create responsive websites
+                  for a variety of clients. Ideal for candidates with knowledge
+                  of HTML, CSS, and JavaScript.
+                </p>
+                <button
+                  type="button"
+                  data-modal-open="modal2"
+                  class="hero-button"
+                >
+                  More info
+                </button>
+              </div>
+            </li>
+            <li class="card">
+              <div class="card-text">
+                <p class="card_subtitle">Frontend Developer</p>
+                <p>
+                  Join our development team and help create responsive websites
+                  for a variety of clients. Ideal for candidates with knowledge
+                  of HTML, CSS, and JavaScript.
+                </p>
+                <button
+                  type="button"
+                  data-modal-open="modal2"
+                  class="hero-button"
+                >
+                  More info
+                </button>
+              </div>
+            </li>
+            <li class="card">
+              <div class="card-text">
+                <p class="card_subtitle">Frontend Developer</p>
+                <p>
+                  Join our development team and help create responsive websites
+                  for a variety of clients. Ideal for candidates with knowledge
+                  of HTML, CSS, and JavaScript.
+                </p>
+               <button
+                  type="button"
+                  data-modal-open="modal2"
+                  class="hero-button"
+                >
+                  More info
+                </button>
+              </div>
+            </li>
+            <li class="card">
+              <div class="card-text">
+                <p class="card_subtitle">Frontend Developer</p>
+                <p>
+                  Join our development team and help create responsive websites
+                  for a variety of clients. Ideal for candidates with knowledge
+                  of HTML, CSS, and JavaScript.
+                </p>
+                <button
+                  type="button"
+                  data-modal-open="modal2"
+                  class="hero-button"
+                >
+                  More info
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Customer Section -->
+      <section class="customer-section">
+        <div class="container">
+          <h2 class="section-header">Customers</h2>
+
+          <ul class="card-set">
+            <li class="card">
+              <a href="" class="customer_link">
+                <svg class="icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-logo-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="card">
+              <a href="" class="customer_link">
+                <svg class="icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-logo-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="card">
+              <a href="" class="customer_link">
+                <svg class="icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-logo-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="card">
+              <a href="" class="customer_link">
+                <svg class="icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-logo-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="card">
+              <a href="" class="customer_link">
+                <svg class="icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-logo-5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="card">
+              <a href="" class="customer_link">
+                <svg class="icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-logo-6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container flex-box">
+        <div class="footer-box">
+          <a href="./index.html" class="logo link"
+            >Web<span class="logo_span">Hot Beans</span></a
+          >
+          <p class="footer-text">
+            Join our team of talented developers and create innovative digital
+            solutions used by businesses worldwide. Grow your skills, work with
+            modern technologies, and make a real impact.
+          </p>
+        </div>
+        <div class="footer-soc-box">
+          <p class="footer_soc-title">Traning Links</p>
+          <ul class="footer_soc-list">
+            <li class="footer_soc-item">
+              <a href="https://www.learn-c.org/" class="footer_soc-link">
+                <svg width="24" height="24" class="icon" >
+                  <use href="./images/icons.svg#external-link" ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer_soc-item">
+              <a href="https://www.learn-c.org/" class="footer_soc-link">
+                <svg width="24" height="24" class="icon" >
+                  <use href="./images/icons.svg#external-link" ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer_soc-item">
+              <a href="https://www.learn-c.org/" class="footer_soc-link">
+                <svg width="24" height="24" class="icon" >
+                  <use href="./images/icons.svg#external-link" ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer_soc-item">
+              <a href="https://www.learn-c.org/" class="footer_soc-link">
+                <svg width="24" height="24" class="icon" >
+                  <use href="./images/icons.svg#external-link" ></use>
+                </svg>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="footer-subc-box">
+          <p class="footer-subc-title">Subscribe</p>
+
+          <form class="footer-form">
+            <label class="footer-lbl">
+              <input
+                type="email"
+                name="email"
+                class="footer-input"
+                placeholder="E-mail"
+              />
+            </label>
+
+            <button type="submit" class="footer-subc-bth">
+              Subscribe
+
+              <svg width="24" height="24" class="icon">
+                <use href="./images/icons.svg#icon-send-frame"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!-- Modal 1 -->
+    <div class="backdrop is-hidden" data-modal="modal1">
+      <div data-modal="modal1" class="modal">
+        <button data-modal-close="modal1" class="modal-button" type="button">
+          <svg class="icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="modal-field">
+            <label for="user-name" class="modal-label"> Name</label>
+
+            <div class="modal-wrap">
+              <input
+                type="text"
+                id="user-name"
+                class="modal-input"
+                name="user-name"
+              />
+              <svg width="18" height="24" class="icon modal-icon">
+                <use href="./images/icons.svg#icon-modal-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="phone" class="modal-label">Phone</label>
+
+            <div class="modal-wrap">
+              <input type="text" id="phone" class="modal-input" name="phone" />
+              <svg width="18" height="24" class="icon modal-icon">
+                <use href="./images/icons.svg#icon-modal-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="email" class="modal-label">Email</label>
+
+            <div class="modal-wrap">
+              <input type="text" id="email" class="modal-input" name="email" />
+              <svg width="18" height="24" class="icon modal-icon">
+                <use href="./images/icons.svg#icon-modal-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field modal-area-fld">
+            <label for="user-comment" class="modal-label"> Comment </label>
+            <textarea
+              id="user-comment"
+              class="modal-area"
+              placeholder="Text input"
+              name="user-comment"
+            ></textarea>
+          </div>
+          <div class="modal-check-fld">
+            <input
+              type="checkbox"
+              class="modal-check-input visually-hidden"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+            />
+            <label class="modal-label check-label" for="user-privacy">
+              <span class="modal-span-icon">
+                <svg width="10" height="8" class="icon modal-check-icon">
+                  <use href="./images/icons.svg#icon-modal-privacy"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="#" class="modal-link"> Privacy Policy</a>
+            </label>
+          </div>
+          <button class="modal-btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="backdrop is-hidden" data-modal="modal2">
+      <div data-modal="modal2" class="modal modal2">
+        <button data-modal-close="modal2" class="modal-button" type="button">
+          <svg class="icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h3 class="modal-title modal2-title">Frontend Developer</h3>
+        <h4>Job Description</h4>
+        <p>
+          The Junior Web Developer will assist in designing, developing, and
+          maintaining websites and web applications. The successful candidate
+          will work as part of a collaborative team and contribute to a range of
+          client projects.
+        </p>
+        <h4>Key Responsibilities</h4>
+        <p>
+          Develop and maintain websites using modern web technologies. Write
+          clean, efficient, and well-documented code. Test websites to ensure
+          functionality across different devices and browsers. Work closely with
+          designers and senior developers. Troubleshoot and resolve technical
+          issues. Participate in project meetings and team discussions.
+        </p>
+        <h4>Essential Requirements</h4>
+        <p>
+          Relevant qualification in Web Development, Computing, or Information
+          Technology. Knowledge of HTML5, CSS3, and JavaScript. Understanding of
+          responsive web design principles. Strong problem-solving and
+          analytical skills. Good communication and teamwork abilities. Passion
+          for web development and continuous learning.
+        </p>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>

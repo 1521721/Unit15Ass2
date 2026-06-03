@@ -215,3 +215,15 @@
   }
   
 }
+  .portfolio-section .card-set {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+  }
+  .portfolio-sectio .card {
+    flex-basis: calc((100% - 2 * 24px) / 3);
+  }
+  .portfolio-section .card_title {
+    text-align: left;
+  }
+

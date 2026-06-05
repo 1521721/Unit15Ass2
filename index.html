@@ -398,7 +398,7 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form>
+        <form validation-form>
           <div class="modal-field">
             <label for="user-name" class="modal-label"> Name</label>
 
@@ -443,24 +443,6 @@
               name="user-comment"
             ></textarea>
           </div>
-          <div class="modal-check-fld">
-            <input
-              type="checkbox"
-              class="modal-check-input visually-hidden"
-              id="user-privacy"
-              value="true"
-              name="user-privacy"
-            />
-            <label class="modal-label check-label" for="user-privacy">
-              <span class="modal-span-icon">
-                <svg width="10" height="8" class="icon modal-check-icon">
-                  <use href="./images/icons.svg#icon-modal-privacy"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a href="#" class="modal-link"> Privacy Policy</a>
-            </label>
-          </div>
           <button class="modal-btn" type="submit">Submit</button>
         </form>
       </div>
@@ -501,5 +483,6 @@
     </div>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/validation.js"></script>
   </body>
 </html>

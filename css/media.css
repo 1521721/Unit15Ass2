@@ -54,8 +54,7 @@
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/hero-bg-tab-img@2x.jpg);
+        );
     }
   }
 
@@ -213,8 +212,6 @@
     align-items: baseline;
     display: flex;
   }
-  
-}
   .portfolio-section .card-set {
     flex-direction: row;
     flex-wrap: wrap;
@@ -226,4 +223,4 @@
   .portfolio-section .card_title {
     text-align: left;
   }
-
+}

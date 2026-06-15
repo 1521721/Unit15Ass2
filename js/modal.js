@@ -17,11 +17,15 @@
   });
 
  
-  modals.forEach((modal) => {
-  modal.addEventListener("click", (e) => {
-    if (e.target.classList.contains("backdrop")) {
-      modal.classList.add("is-hidden");
-    }
-  }); 
-});
+//   modals.forEach((modal) => {
+//   modal.addEventListener("click", (e) => {
+//     if (e.target.classList.contains("backdrop")) {
+//       modal.classList.add("is-hidden");
+//     }
+//   }); 
+// });
 })();
+
+// This script manages multiple modal windows on the webpage. It uses the
+// data-modal-open and data-modal-close attributes to identify which buttons
+// open or close a spefic modal which is being identified by its id  

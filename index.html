@@ -30,6 +30,7 @@
     <header class="header">
       <!-- a specif style used to align and structure the main content -->
       <div class="container">
+        <!-- This's the navigation of webpage -->
         <nav class="page-nav">
           <a href="./index.html" class="link logo"
             >Web<span class="logo_span">Hot Beans</span></a
@@ -66,13 +67,16 @@
             </li>
           </ul>
         </address>
+        <!-- This's a modal button used to open the modal window which has svg pic as icon -->
         <button type="button" class="menu-open-btn" data-menu-open>
           <svg width="32" height="22" class="icon-menu-open">
             <use href="./images/icons.svg#icon-open-mob-menu"></use>
           </svg>
         </button>
       </div>
+      <!-- Thi's mob navigation  -->
       <div class="mob-menu is-hidden" data-menu>
+         <!-- This's a modal button used to close the modal window which has svg pic as icon -->
         <button data-menu-close class="modal-mob-bth" type="button">
           <svg class="icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
@@ -145,6 +149,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-header">Welcome! We are recruiting new developers</h1>
+           <!-- This's a modal button used to open the modal window which has svg pic as icon -->
           <button type="button" data-modal-open="modal1" class="hero-button">
             Apply now
           </button>
@@ -529,8 +534,10 @@
         </p>
       </div>
     </div>
+    <!-- This is a set of js files which web page's using  -->
+         <script type="module" src="./js/validation.js"></script>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
-    <script src="./js/validation.js"></script>
+
   </body>
 </html>

@@ -1,3 +1,4 @@
+/* its root of colours and font */
 :root {
   --whitebackground: #ffffff;
   --herobackground: #2e2f42;
@@ -10,6 +11,7 @@
   --logofont: "Raleway", sans-serif;
   --primaryfont: "Roboto", sans-serif;
 }
+/* it sets all main styles  */
 body {
   font-family: var(--primaryfont);
   font-size: 14px;
@@ -139,6 +141,7 @@ label {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
+/* this styles is used  */
 .current {
   color: #404bbf;
 }

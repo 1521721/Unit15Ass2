@@ -12,3 +12,6 @@
     refs.menu.classList.toggle('is-hidden');
   }
 })();
+// This script is used to open and close mob menu. It uses the
+// data-menu-open and data-menu-close attributes to identify whether an element
+// is an open button or a close button, and performs the right action.
